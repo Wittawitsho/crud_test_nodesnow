@@ -1,5 +1,22 @@
 version: '3.8'
 services:
+  frontend:
+    image: frontend
+    ports:
+      - "5173:5173"
+  backend:
+    image: backend
+    ports:
+      - "3000:3000"
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: myuser
+      DB_PASSWORD: mypassword
+      DB_NAME: mydb
+    depends_on:
+      - postgres
+
   postgres:
     image: postgres:latest
     container_name: postgres

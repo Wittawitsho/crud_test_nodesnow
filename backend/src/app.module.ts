@@ -15,8 +15,8 @@ import { TaskModule } from './task/task.module';
     }),
     SequelizeModule.forRoot({
       dialect: 'postgres',
-      host: 'localhost',
-      port: 5433,
+      host: 'postgres',
+      port: 5432,
       username: 'myuser',
       password: 'mypassword',
       database: 'mydb',
