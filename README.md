@@ -58,6 +58,6 @@
 * docker.io/showittawit/frontend
 * docker.io/showittawit/backend
 * docker.io/showittawit/postgres
-* วิธีรัน นำ docker-compose.yml เปลี่ยนชื่อ images เป็น your-dockerhub-username/imagename
+* วิธีrun นำ docker-compose.yml เปลี่ยนชื่อ images เป็น your-dockerhub-username/imagename
 
 
