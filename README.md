@@ -34,7 +34,7 @@
 * password: 'mypassword',
 * database: 'mydb',
 
-API
+## API
 ## Authentication
 * register : POST /user/register
 * login : POST /auth/login
