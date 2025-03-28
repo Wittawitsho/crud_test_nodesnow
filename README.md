@@ -47,6 +47,11 @@
 * Get details of a specific task : GET  /tasks/:id
 * Update a task : PATCH  /tasks/:id
 * Delete a specific task : DELETE  /tasks/:id
-
+## วิธี run
+* docker compose -d up
+* cd frontend
+* npm run dev
+* cd backend
+* npm run start:dev
 
 
